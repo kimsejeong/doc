@@ -18,7 +18,7 @@ module.exports = {
     nav: [
       {
         text: "JavaScript",
-        link: "/pages/JavaScript/index.md",
+        link: "/JavaScript/index.md",
       },
       { text: "Github", link: "https://github.com/chai618" },
     ],
@@ -48,7 +48,6 @@ module.exports = {
     "vuepress-plugin-auto-sidebar": {
       nav: true,
       collapsable: true,
-      sidebarDepth: 4,
     },
   },
 };
