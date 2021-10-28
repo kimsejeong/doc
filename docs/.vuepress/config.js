@@ -1,9 +1,9 @@
 module.exports = {
   // 注入到当前页面的 HTML <head> 中的标签
   // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
-  title: "此木雨辰",
+  title: "ztq",
   // meta 中的描述文字，用于SEO,注入到当前页面的 HTML <head> 中的标签
-  description: "万物生而有翼，你因何匍匐形同蝼蚁",
+  description: "ztq",
   head: [
     [
       "link",
@@ -25,8 +25,8 @@ module.exports = {
         link: "/pages/react/index.md",
       },
       {
-        text: "flutter",
-        link: "/pages/flutter/index.md",
+        text: "JavaScript",
+        link: "/pages/JavaScript/index.md",
       },
       { text: "Github", link: "https://github.com/chai618" },
     ],
