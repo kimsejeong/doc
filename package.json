@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/kimsejeong/docs#readme",
   "devDependencies": {
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-auto-sidebar": "^2.3.2"
   }
 }
