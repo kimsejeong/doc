@@ -17,14 +17,6 @@ module.exports = {
     //顶部导航栏
     nav: [
       {
-        text: "vue",
-        link: "/pages/vue/index.md",
-      },
-      {
-        text: "react",
-        link: "/pages/react/index.md",
-      },
-      {
         text: "JavaScript",
         link: "/pages/JavaScript/index.md",
       },
@@ -54,6 +46,7 @@ module.exports = {
   // },
   plugins: {
     "vuepress-plugin-auto-sidebar": {
+      nav: true,
       collapsable: true,
       sidebarDepth: 4,
     },
