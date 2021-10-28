@@ -1,0 +1,26 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh",
+    "cname": "bash cname.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimsejeong/docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimsejeong/docs/issues"
+  },
+  "homepage": "https://github.com/kimsejeong/docs#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
