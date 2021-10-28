@@ -1,4 +1,4 @@
-## JavaScript 篇
+## JavaScript 篇 1
 
 ### JavaScript 有⼏种类型的值
 

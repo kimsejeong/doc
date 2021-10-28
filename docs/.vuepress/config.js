@@ -49,5 +49,13 @@ module.exports = {
     // },
   },
   // base:'.'
-  "vuepress-plugin-auto-sidebar": {},
+  // "vuepress-plugin-auto-sidebar": {
+  //   nav: true,
+  // },
+  plugins: {
+    "vuepress-plugin-auto-sidebar": {
+      collapsable: true,
+      sidebarDepth: 4,
+    },
+  },
 };

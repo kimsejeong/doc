@@ -4,28 +4,16 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "C:\\Users\\zhangtianqi\\Desktop\\docs\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "C:\\Users\\zhangtianqi\\Desktop\\doc\\node_modules\\_@vuepress_core@1.8.2@@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-72ef0c49",
-    path: "/pages/flutter/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-72ef0c49").then(next)
-    },
-  },
-  {
-    path: "/pages/flutter/index.html",
-    redirect: "/pages/flutter/"
-  },
-  {
-    name: "v-0f5d5851",
+    name: "v-76612d88",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0f5d5851").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-76612d88").then(next)
     },
   },
   {
@@ -33,31 +21,19 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-e8ca3cae",
-    path: "/pages/react/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e8ca3cae").then(next)
-    },
-  },
-  {
-    path: "/pages/react/index.html",
-    redirect: "/pages/react/"
-  },
-  {
-    name: "v-21308f0a",
+    name: "v-96537982",
     path: "/pages/vue/diff.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-21308f0a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-96537982").then(next)
     },
   },
   {
-    name: "v-5fea49ee",
+    name: "v-304e943e",
     path: "/pages/vue/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5fea49ee").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-304e943e").then(next)
     },
   },
   {
@@ -65,12 +41,36 @@ export const routes = [
     redirect: "/pages/vue/"
   },
   {
-    name: "v-6b6ec7a0",
+    name: "v-4444f85e",
+    path: "/pages/react/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4444f85e").then(next)
+    },
+  },
+  {
+    path: "/pages/react/index.html",
+    redirect: "/pages/react/"
+  },
+  {
+    name: "v-0b521725",
     path: "/pages/vue/react.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6b6ec7a0").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-0b521725").then(next)
     },
+  },
+  {
+    name: "v-1ccae16e",
+    path: "/pages/JavaScript/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1ccae16e").then(next)
+    },
+  },
+  {
+    path: "/pages/JavaScript/index.html",
+    redirect: "/pages/JavaScript/"
   },
   {
     path: '*',
